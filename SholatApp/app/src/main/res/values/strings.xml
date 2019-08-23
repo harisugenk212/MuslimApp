@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SholatApp</string>
+    <string name="nama_produk">nama produk</string>
+    <string name="nomor_sertifikat">nomor_sertifikat</string>
+    <string name="produsen">produsen</string>
+    <string name="berkalu_hingga">berlakuhingga</string>
+    <string name="nama_surat">namasurat</string>
+    <string name="asma">asma</string>
+    <string name="Ayat_ke">ayat ke</string>
+    <string name="diturunkan_di">diturunkan di</string>
+    <string name="arti">Artinya</string>
+</resources>

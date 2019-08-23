@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/masjid"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:id="@+id/tv_jadwalsholat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:text="Jadwal Sholat"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="50dp"
+                android:layout_marginBottom="15dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/tv_produk_halal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:text="Produk Halal"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="50dp"
+                android:layout_marginBottom="15dp"
+
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/tv_doa_harian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:text="Surat Pilihan "
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="50dp"
+                android:layout_marginBottom="15dp"
+                android:textAlignment="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark">
+
+                <TextView
+                    android:id="@+id/tv_harisugeng2019"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HariSugeng@2019"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="40dp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
